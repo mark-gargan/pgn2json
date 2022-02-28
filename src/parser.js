@@ -1,4 +1,4 @@
-pgnparser =  {
+pgn2json =  {
 
     remove_comments : function (pgnstring){
         return pgnstring.replace(/{.*}/gmi, "");
@@ -50,7 +50,7 @@ pgnparser =  {
         return moves
     },
     parse : function (pgnstring){
-        var pgnobj = {}
+        const pgnobj = {};
         let tags;
         tags = this.parse_tags(pgnstring)
         for(let i in tags){
