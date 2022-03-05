@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm version patch && git commit && npm publish"
+    "publish": "npm version patch  && npm publish"
   },
   "repository": {
     "type": "git",
