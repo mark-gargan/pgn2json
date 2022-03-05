@@ -1,5 +1,4 @@
 pgn2json =  {
-
     remove_comments : function (pgnstring){
         return pgnstring.replace(/{.*}/gmi, "");
     },
